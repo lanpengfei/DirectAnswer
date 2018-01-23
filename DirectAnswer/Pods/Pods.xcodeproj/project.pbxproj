@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD3E299A6145778DA9B72C308238FE8 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0115B2880BB8B1B4E4BF2A37F7ECDC04 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		155825CB811314CCF446B270B7AB92B4 /* NSDictionary+TZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A5320395D5592A9E508A90E30143FB /* NSDictionary+TZ.m */; };
+		15F556BBB8C5FD67AD2D7616A991615D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		1DB7E37E87A8F744F25C347B1BA51F47 /* UIImage+TZImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF7DF49C086CE9C393A1AAF51D786 /* UIImage+TZImageWithColor.m */; };
+		27CDB457F39C9FBA6F2F617CA9C4C981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		28130E5A88E49D33AC7AE471A427A272 /* NSObject+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7B5675DDF7A1E7C1992E81601016CC /* NSObject+Log.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34291C5164B810AB08376D870AA9FDA1 /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C5EE3528CBDEC2AC1C3CFEF069DA3 /* NSObject+Log.m */; };
+		460377ABD41BD21A5B24AE8B9767929D /* UILabel+TZ.h in Headers */ = {isa = PBXBuildFile; fileRef = C176F5ABAC1E2B2D24510E4B07D9234E /* UILabel+TZ.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D6D0B04C68238B0C8479B1190F90D4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		52042448BFC0F63206ECC171473C646C /* NSMutableDictionary+Value.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBC75874EAA8EFFAE373E6AF366EB9C /* NSMutableDictionary+Value.m */; };
+		5425609EF1D213F471FA57F31CE5C9B8 /* LANTestTwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A3AD732D184D349EA7C3653A904F93 /* LANTestTwo-dummy.m */; };
+		5E606D84DE21A673B52326E17D380884 /* NSDictionary+TZ.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF61D0583D2B2197EB0E6A593C60901 /* NSDictionary+TZ.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6426E16C75C5CCF5AFB1A256B487BEAD /* NSArray+LOG.m in Sources */ = {isa = PBXBuildFile; fileRef = 812879B73FF9CE9BACF6CC461C759B49 /* NSArray+LOG.m */; };
+		81FF62EFDBE9E1B3F4397D07B098B994 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 777078F34CD54D50FC38689091C0EC38 /* ReplaceMe.m */; };
+		83BCEBA4335DA2E0EA1B97AD662CB219 /* UILabel+TZ.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F7EF9FBAADF86BF0252C929D8BCEF6 /* UILabel+TZ.m */; };
+		8AE185D89C4851742B2239FC684A3FB0 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF508F9DE4338309A9BE82603BD1F1C /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E0DD3F7B133708695C76E6BC5965E95 /* NSDictionary+LOG.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F29D734098FA5738A9600407313464 /* NSDictionary+LOG.m */; };
+		AE787ED5FD03D549FF486FFA192AFBCD /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F35646E7944965D0A0F5705799DB730 /* UIView+Frame.m */; };
+		BF4FF26CB338C15E91B834A8DD8342CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C5D4674E2083B0457CA950A4E7564130 /* NSDictionary+LOG.h in Headers */ = {isa = PBXBuildFile; fileRef = E3233FC3314D9A1778EDB8B1ABCB1628 /* NSDictionary+LOG.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC073599E7F439F5E978BE6C13508917 /* LANTestOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C670EF5A03880281A0A49E5CB745C3 /* LANTestOne-dummy.m */; };
+		CFE416F6D1E4D8A88B2B40A887D67635 /* Pods-DirectAnswer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C479BF337F84C599AC88F17BBB857162 /* Pods-DirectAnswer-dummy.m */; };
+		DCDE75E49B50C393C41A66D3927B06AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		E659F4CEB5430BC17E59431CAACBB217 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 922F671335CC1E7BB448D4E703AAD632 /* UIScrollView+EmptyDataSet.m */; };
+		E7B54ACBD8CB51596799063FD7C3CEA9 /* DZNEmptyDataSet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF93D70740B7E8835BC3C49172CFF9E3 /* DZNEmptyDataSet-dummy.m */; };
+		EF96510539B20DE9C59F2BD8617E7607 /* NSMutableDictionary+Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1DB0AB434BCE1F8DEA5EEBE973A2C5 /* NSMutableDictionary+Value.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5A02BD299422BC970A2BD218DCFF7A3 /* NSArray+LOG.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6A989D5303F1DB9FE336280E138333 /* NSArray+LOG.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA071EF21CF006E19C1C657DAA27BD6E /* UIImage+TZImageWithColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ADB004113D3CB31DDFFC62367DD1845 /* UIImage+TZImageWithColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		457FBD7CD20D4D7BDB4FEB352A2D677F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5437890023F30CA85DFCA260CA914D48;
+			remoteInfo = DZNEmptyDataSet;
+		};
+		701EDFEAD501EB3DF0C049513F45B9BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1459FFC6E84358F922264A21775D562;
+			remoteInfo = LANTestOne;
+		};
+		A8E26BD450174054BF38FD388AD0ED56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9036F166ABDC80A2FFA64A38A78BB60;
+			remoteInfo = LANTestTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0115B2880BB8B1B4E4BF2A37F7ECDC04 /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "LANTestOne/Classes/Category/UIView+Frame.h"; sourceTree = "<group>"; };
+		03ADF7DF49C086CE9C393A1AAF51D786 /* UIImage+TZImageWithColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TZImageWithColor.m"; path = "LANTestOne/Classes/Category/UIImage+TZImageWithColor.m"; sourceTree = "<group>"; };
+		09A5320395D5592A9E508A90E30143FB /* NSDictionary+TZ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+TZ.m"; path = "LANTestOne/Classes/Category/NSDictionary+TZ.m"; sourceTree = "<group>"; };
+		0ED2A80023BBD2726BB5F16268C01EC9 /* LANTestTwo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LANTestTwo.xcconfig; sourceTree = "<group>"; };
+		167FC3112EA13142E17404985891F5CE /* LANTestOne-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LANTestOne-prefix.pch"; sourceTree = "<group>"; };
+		1AF508F9DE4338309A9BE82603BD1F1C /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Source/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		221237A3570941855E017D15B145DA41 /* DZNEmptyDataSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-prefix.pch"; sourceTree = "<group>"; };
+		3BF61D0583D2B2197EB0E6A593C60901 /* NSDictionary+TZ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+TZ.h"; path = "LANTestOne/Classes/Category/NSDictionary+TZ.h"; sourceTree = "<group>"; };
+		3F3C5EE3528CBDEC2AC1C3CFEF069DA3 /* NSObject+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Log.m"; path = "LANTestOne/Classes/Category/NSObject+Log.m"; sourceTree = "<group>"; };
+		404067F269123E3F4417E617AD3E217F /* Pods-DirectAnswer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DirectAnswer.release.xcconfig"; sourceTree = "<group>"; };
+		5F35646E7944965D0A0F5705799DB730 /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "LANTestOne/Classes/Category/UIView+Frame.m"; sourceTree = "<group>"; };
+		6E7B5675DDF7A1E7C1992E81601016CC /* NSObject+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Log.h"; path = "LANTestOne/Classes/Category/NSObject+Log.h"; sourceTree = "<group>"; };
+		6FEE5DA8602542C1B45836FB03F44C31 /* libLANTestOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLANTestOne.a; path = libLANTestOne.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		777078F34CD54D50FC38689091C0EC38 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LANTestTwo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7A1DB0AB434BCE1F8DEA5EEBE973A2C5 /* NSMutableDictionary+Value.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+Value.h"; path = "LANTestOne/Classes/Category/NSMutableDictionary+Value.h"; sourceTree = "<group>"; };
+		812879B73FF9CE9BACF6CC461C759B49 /* NSArray+LOG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LOG.m"; path = "LANTestOne/Classes/Category/NSArray+LOG.m"; sourceTree = "<group>"; };
+		81A3AD732D184D349EA7C3653A904F93 /* LANTestTwo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LANTestTwo-dummy.m"; sourceTree = "<group>"; };
+		82CAB6BC0ECA45A0EDB48FAAD9A64CEF /* Pods-DirectAnswer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DirectAnswer-frameworks.sh"; sourceTree = "<group>"; };
+		89D769BEFB0F09F0AC9E6057E318A211 /* Pods-DirectAnswer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DirectAnswer.debug.xcconfig"; sourceTree = "<group>"; };
+		8DA8297261D014CC218F4E3295930BD1 /* libLANTestTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLANTestTwo.a; path = libLANTestTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		922F671335CC1E7BB448D4E703AAD632 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Source/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9607BE9462A1A657AAFA28E8DFD16778 /* LANTestOne.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LANTestOne.xcconfig; sourceTree = "<group>"; };
+		9ADB004113D3CB31DDFFC62367DD1845 /* UIImage+TZImageWithColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TZImageWithColor.h"; path = "LANTestOne/Classes/Category/UIImage+TZImageWithColor.h"; sourceTree = "<group>"; };
+		B63AFB65A117AD26559EC4C284828C7A /* Define.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Define.h; path = LANTest/Classes/Define.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B63F47B4A35D2286AB33D86C397B68AB /* Pods-DirectAnswer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DirectAnswer-acknowledgements.plist"; sourceTree = "<group>"; };
+		C176F5ABAC1E2B2D24510E4B07D9234E /* UILabel+TZ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TZ.h"; path = "LANTestOne/Classes/Category/UILabel+TZ.h"; sourceTree = "<group>"; };
+		C479BF337F84C599AC88F17BBB857162 /* Pods-DirectAnswer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DirectAnswer-dummy.m"; sourceTree = "<group>"; };
+		CBBE2775D1E709AD1084BF038F740B4C /* Pods-DirectAnswer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DirectAnswer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBEB049F3D4F90AF7DE552EA2BB787A4 /* LANTestTwo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LANTestTwo-prefix.pch"; sourceTree = "<group>"; };
+		CF044469B4254DA0F41756A1F19D4BD5 /* libPods-DirectAnswer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DirectAnswer.a"; path = "libPods-DirectAnswer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F7EF9FBAADF86BF0252C929D8BCEF6 /* UILabel+TZ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TZ.m"; path = "LANTestOne/Classes/Category/UILabel+TZ.m"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF93D70740B7E8835BC3C49172CFF9E3 /* DZNEmptyDataSet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZNEmptyDataSet-dummy.m"; sourceTree = "<group>"; };
+		E3233FC3314D9A1778EDB8B1ABCB1628 /* NSDictionary+LOG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LOG.h"; path = "LANTestOne/Classes/Category/NSDictionary+LOG.h"; sourceTree = "<group>"; };
+		E3C670EF5A03880281A0A49E5CB745C3 /* LANTestOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LANTestOne-dummy.m"; sourceTree = "<group>"; };
+		E3F29D734098FA5738A9600407313464 /* NSDictionary+LOG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LOG.m"; path = "LANTestOne/Classes/Category/NSDictionary+LOG.m"; sourceTree = "<group>"; };
+		ED4CFA862AE703ACEB5328614A89AFD2 /* Pods-DirectAnswer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DirectAnswer-resources.sh"; sourceTree = "<group>"; };
+		F752EE2B35643E9626F160899D20818A /* DZNEmptyDataSet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZNEmptyDataSet.xcconfig; sourceTree = "<group>"; };
+		FDBC75874EAA8EFFAE373E6AF366EB9C /* NSMutableDictionary+Value.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+Value.m"; path = "LANTestOne/Classes/Category/NSMutableDictionary+Value.m"; sourceTree = "<group>"; };
+		FDDB23627755CB4E57E6EF9292853242 /* libDZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDZNEmptyDataSet.a; path = libDZNEmptyDataSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6A989D5303F1DB9FE336280E138333 /* NSArray+LOG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LOG.h"; path = "LANTestOne/Classes/Category/NSArray+LOG.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		337A15437F2D8E9608BBC9A7F937EB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F556BBB8C5FD67AD2D7616A991615D /* Foundation.framework in Frameworks */,
+				DCDE75E49B50C393C41A66D3927B06AC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43637A5C6BF056CF7547DE5BDF160E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6D0B04C68238B0C8479B1190F90D4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD267033B8ADAA38FB066EB14CA81303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4FF26CB338C15E91B834A8DD8342CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F502FCC40E349BDDDE8D46C8AE8CB10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CDB457F39C9FBA6F2F617CA9C4C981 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337E2EB5E71EA669983CDD7E96F27A34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F3802D5FF69B36EE42C6E46D4F244 /* Pods-DirectAnswer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		37A1B4603881546FD03FED3425913793 /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				1AF508F9DE4338309A9BE82603BD1F1C /* UIScrollView+EmptyDataSet.h */,
+				922F671335CC1E7BB448D4E703AAD632 /* UIScrollView+EmptyDataSet.m */,
+				ABA8C84A931D91E273908722AB962EF0 /* Support Files */,
+			);
+			name = DZNEmptyDataSet;
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BDECAD0C23470B32C36319A8A11B5721 /* Pods */,
+				D94FB938766267BA604AD57A9F08D45A /* Products */,
+				337E2EB5E71EA669983CDD7E96F27A34 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89D4336A7415EA22BA7D2B5EC18EE975 /* LANTest */ = {
+			isa = PBXGroup;
+			children = (
+				B63AFB65A117AD26559EC4C284828C7A /* Define.h */,
+			);
+			name = LANTest;
+			path = LANTest;
+			sourceTree = "<group>";
+		};
+		ABA8C84A931D91E273908722AB962EF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F752EE2B35643E9626F160899D20818A /* DZNEmptyDataSet.xcconfig */,
+				DF93D70740B7E8835BC3C49172CFF9E3 /* DZNEmptyDataSet-dummy.m */,
+				221237A3570941855E017D15B145DA41 /* DZNEmptyDataSet-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DZNEmptyDataSet";
+			sourceTree = "<group>";
+		};
+		AE47F392F5364D8954330D897672874A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ED2A80023BBD2726BB5F16268C01EC9 /* LANTestTwo.xcconfig */,
+				81A3AD732D184D349EA7C3653A904F93 /* LANTestTwo-dummy.m */,
+				CBEB049F3D4F90AF7DE552EA2BB787A4 /* LANTestTwo-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LANTestTwo";
+			sourceTree = "<group>";
+		};
+		BDECAD0C23470B32C36319A8A11B5721 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37A1B4603881546FD03FED3425913793 /* DZNEmptyDataSet */,
+				89D4336A7415EA22BA7D2B5EC18EE975 /* LANTest */,
+				DD96B1D7FE2CAABCA1111560B09B75B7 /* LANTestOne */,
+				FD56A2924DE5DE06A6F32922624C6752 /* LANTestTwo */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3D8D778E7F0B8A394979CE578F45CA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9607BE9462A1A657AAFA28E8DFD16778 /* LANTestOne.xcconfig */,
+				E3C670EF5A03880281A0A49E5CB745C3 /* LANTestOne-dummy.m */,
+				167FC3112EA13142E17404985891F5CE /* LANTestOne-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LANTestOne";
+			sourceTree = "<group>";
+		};
+		D94FB938766267BA604AD57A9F08D45A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB23627755CB4E57E6EF9292853242 /* libDZNEmptyDataSet.a */,
+				6FEE5DA8602542C1B45836FB03F44C31 /* libLANTestOne.a */,
+				8DA8297261D014CC218F4E3295930BD1 /* libLANTestTwo.a */,
+				CF044469B4254DA0F41756A1F19D4BD5 /* libPods-DirectAnswer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD96B1D7FE2CAABCA1111560B09B75B7 /* LANTestOne */ = {
+			isa = PBXGroup;
+			children = (
+				FE6A989D5303F1DB9FE336280E138333 /* NSArray+LOG.h */,
+				812879B73FF9CE9BACF6CC461C759B49 /* NSArray+LOG.m */,
+				E3233FC3314D9A1778EDB8B1ABCB1628 /* NSDictionary+LOG.h */,
+				E3F29D734098FA5738A9600407313464 /* NSDictionary+LOG.m */,
+				3BF61D0583D2B2197EB0E6A593C60901 /* NSDictionary+TZ.h */,
+				09A5320395D5592A9E508A90E30143FB /* NSDictionary+TZ.m */,
+				7A1DB0AB434BCE1F8DEA5EEBE973A2C5 /* NSMutableDictionary+Value.h */,
+				FDBC75874EAA8EFFAE373E6AF366EB9C /* NSMutableDictionary+Value.m */,
+				6E7B5675DDF7A1E7C1992E81601016CC /* NSObject+Log.h */,
+				3F3C5EE3528CBDEC2AC1C3CFEF069DA3 /* NSObject+Log.m */,
+				9ADB004113D3CB31DDFFC62367DD1845 /* UIImage+TZImageWithColor.h */,
+				03ADF7DF49C086CE9C393A1AAF51D786 /* UIImage+TZImageWithColor.m */,
+				C176F5ABAC1E2B2D24510E4B07D9234E /* UILabel+TZ.h */,
+				D7F7EF9FBAADF86BF0252C929D8BCEF6 /* UILabel+TZ.m */,
+				0115B2880BB8B1B4E4BF2A37F7ECDC04 /* UIView+Frame.h */,
+				5F35646E7944965D0A0F5705799DB730 /* UIView+Frame.m */,
+				D3D8D778E7F0B8A394979CE578F45CA5 /* Support Files */,
+			);
+			name = LANTestOne;
+			path = LANTestOne;
+			sourceTree = "<group>";
+		};
+		EB3F3802D5FF69B36EE42C6E46D4F244 /* Pods-DirectAnswer */ = {
+			isa = PBXGroup;
+			children = (
+				CBBE2775D1E709AD1084BF038F740B4C /* Pods-DirectAnswer-acknowledgements.markdown */,
+				B63F47B4A35D2286AB33D86C397B68AB /* Pods-DirectAnswer-acknowledgements.plist */,
+				C479BF337F84C599AC88F17BBB857162 /* Pods-DirectAnswer-dummy.m */,
+				82CAB6BC0ECA45A0EDB48FAAD9A64CEF /* Pods-DirectAnswer-frameworks.sh */,
+				ED4CFA862AE703ACEB5328614A89AFD2 /* Pods-DirectAnswer-resources.sh */,
+				89D769BEFB0F09F0AC9E6057E318A211 /* Pods-DirectAnswer.debug.xcconfig */,
+				404067F269123E3F4417E617AD3E217F /* Pods-DirectAnswer.release.xcconfig */,
+			);
+			name = "Pods-DirectAnswer";
+			path = "Target Support Files/Pods-DirectAnswer";
+			sourceTree = "<group>";
+		};
+		FD56A2924DE5DE06A6F32922624C6752 /* LANTestTwo */ = {
+			isa = PBXGroup;
+			children = (
+				777078F34CD54D50FC38689091C0EC38 /* ReplaceMe.m */,
+				AE47F392F5364D8954330D897672874A /* Support Files */,
+			);
+			name = LANTestTwo;
+			path = LANTestTwo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9077FD721AC492135E5F3B9A67F65E6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE185D89C4851742B2239FC684A3FB0 /* UIScrollView+EmptyDataSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2867297D81EEE79B75615483951B57A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A02BD299422BC970A2BD218DCFF7A3 /* NSArray+LOG.h in Headers */,
+				C5D4674E2083B0457CA950A4E7564130 /* NSDictionary+LOG.h in Headers */,
+				5E606D84DE21A673B52326E17D380884 /* NSDictionary+TZ.h in Headers */,
+				EF96510539B20DE9C59F2BD8617E7607 /* NSMutableDictionary+Value.h in Headers */,
+				28130E5A88E49D33AC7AE471A427A272 /* NSObject+Log.h in Headers */,
+				FA071EF21CF006E19C1C657DAA27BD6E /* UIImage+TZImageWithColor.h in Headers */,
+				460377ABD41BD21A5B24AE8B9767929D /* UILabel+TZ.h in Headers */,
+				0AD3E299A6145778DA9B72C308238FE8 /* UIView+Frame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5437890023F30CA85DFCA260CA914D48 /* DZNEmptyDataSet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D16F1430E3813C6D9A8E7A6E3A4E3F /* Build configuration list for PBXNativeTarget "DZNEmptyDataSet" */;
+			buildPhases = (
+				91D3866059EC142AF59AE52B9A008519 /* Sources */,
+				337A15437F2D8E9608BBC9A7F937EB94 /* Frameworks */,
+				9077FD721AC492135E5F3B9A67F65E6E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZNEmptyDataSet;
+			productName = DZNEmptyDataSet;
+			productReference = FDDB23627755CB4E57E6EF9292853242 /* libDZNEmptyDataSet.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84A8F088A36DEBCFF2C369CBFA88B9A8 /* Pods-DirectAnswer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858DE2D00AF81B09E37B60D920EB0C64 /* Build configuration list for PBXNativeTarget "Pods-DirectAnswer" */;
+			buildPhases = (
+				DEEF413CFDB3CEC590A2675B4F600626 /* Sources */,
+				CD267033B8ADAA38FB066EB14CA81303 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4E4811143B2B6E64E053DEA61172A5 /* PBXTargetDependency */,
+				B4ECD11B17332B945C2F3E34520B8B85 /* PBXTargetDependency */,
+				DEF4E3943B21651F3044E0E34A69A08C /* PBXTargetDependency */,
+			);
+			name = "Pods-DirectAnswer";
+			productName = "Pods-DirectAnswer";
+			productReference = CF044469B4254DA0F41756A1F19D4BD5 /* libPods-DirectAnswer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9036F166ABDC80A2FFA64A38A78BB60 /* LANTestTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9458AC734207B1393B9808E717012CED /* Build configuration list for PBXNativeTarget "LANTestTwo" */;
+			buildPhases = (
+				8560C042851A38B31707E7E8C2E1CCEF /* Sources */,
+				F502FCC40E349BDDDE8D46C8AE8CB10D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LANTestTwo;
+			productName = LANTestTwo;
+			productReference = 8DA8297261D014CC218F4E3295930BD1 /* libLANTestTwo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1459FFC6E84358F922264A21775D562 /* LANTestOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078896AB760B946690AD229C9FBA2DE0 /* Build configuration list for PBXNativeTarget "LANTestOne" */;
+			buildPhases = (
+				4ECC0EBCA0D2C03018DB183E4D0E0027 /* Sources */,
+				43637A5C6BF056CF7547DE5BDF160E5A /* Frameworks */,
+				A2867297D81EEE79B75615483951B57A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LANTestOne;
+			productName = LANTestOne;
+			productReference = 6FEE5DA8602542C1B45836FB03F44C31 /* libLANTestOne.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D94FB938766267BA604AD57A9F08D45A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5437890023F30CA85DFCA260CA914D48 /* DZNEmptyDataSet */,
+				E1459FFC6E84358F922264A21775D562 /* LANTestOne */,
+				A9036F166ABDC80A2FFA64A38A78BB60 /* LANTestTwo */,
+				84A8F088A36DEBCFF2C369CBFA88B9A8 /* Pods-DirectAnswer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ECC0EBCA0D2C03018DB183E4D0E0027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC073599E7F439F5E978BE6C13508917 /* LANTestOne-dummy.m in Sources */,
+				6426E16C75C5CCF5AFB1A256B487BEAD /* NSArray+LOG.m in Sources */,
+				8E0DD3F7B133708695C76E6BC5965E95 /* NSDictionary+LOG.m in Sources */,
+				155825CB811314CCF446B270B7AB92B4 /* NSDictionary+TZ.m in Sources */,
+				52042448BFC0F63206ECC171473C646C /* NSMutableDictionary+Value.m in Sources */,
+				34291C5164B810AB08376D870AA9FDA1 /* NSObject+Log.m in Sources */,
+				1DB7E37E87A8F744F25C347B1BA51F47 /* UIImage+TZImageWithColor.m in Sources */,
+				83BCEBA4335DA2E0EA1B97AD662CB219 /* UILabel+TZ.m in Sources */,
+				AE787ED5FD03D549FF486FFA192AFBCD /* UIView+Frame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8560C042851A38B31707E7E8C2E1CCEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5425609EF1D213F471FA57F31CE5C9B8 /* LANTestTwo-dummy.m in Sources */,
+				81FF62EFDBE9E1B3F4397D07B098B994 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D3866059EC142AF59AE52B9A008519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B54ACBD8CB51596799063FD7C3CEA9 /* DZNEmptyDataSet-dummy.m in Sources */,
+				E659F4CEB5430BC17E59431CAACBB217 /* UIScrollView+EmptyDataSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEF413CFDB3CEC590A2675B4F600626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE416F6D1E4D8A88B2B40A887D67635 /* Pods-DirectAnswer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4ECD11B17332B945C2F3E34520B8B85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LANTestOne;
+			target = E1459FFC6E84358F922264A21775D562 /* LANTestOne */;
+			targetProxy = 701EDFEAD501EB3DF0C049513F45B9BA /* PBXContainerItemProxy */;
+		};
+		DEF4E3943B21651F3044E0E34A69A08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LANTestTwo;
+			target = A9036F166ABDC80A2FFA64A38A78BB60 /* LANTestTwo */;
+			targetProxy = A8E26BD450174054BF38FD388AD0ED56 /* PBXContainerItemProxy */;
+		};
+		FB4E4811143B2B6E64E053DEA61172A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZNEmptyDataSet;
+			target = 5437890023F30CA85DFCA260CA914D48 /* DZNEmptyDataSet */;
+			targetProxy = 457FBD7CD20D4D7BDB4FEB352A2D677F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		48199053E67D857ED683C5004856F247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9607BE9462A1A657AAFA28E8DFD16778 /* LANTestOne.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LANTestOne/LANTestOne-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EB61EF56E68C278A5F9E1748E74CA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9607BE9462A1A657AAFA28E8DFD16778 /* LANTestOne.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LANTestOne/LANTestOne-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		627DB57B3B81D56BCE59C85CEC127AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404067F269123E3F4417E617AD3E217F /* Pods-DirectAnswer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C89C74810E847CE6E729375A060C1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D769BEFB0F09F0AC9E6057E318A211 /* Pods-DirectAnswer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DCE2ED51E523E0BECFA89C421D98519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED2A80023BBD2726BB5F16268C01EC9 /* LANTestTwo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LANTestTwo/LANTestTwo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8D67096C87E49A4D6384CDAB885BF405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F752EE2B35643E9626F160899D20818A /* DZNEmptyDataSet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ABAB8BD70ED520BD1B0E1BF982037F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED2A80023BBD2726BB5F16268C01EC9 /* LANTestTwo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LANTestTwo/LANTestTwo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDBC60D547E8DA8EBEB2B948346AAD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F752EE2B35643E9626F160899D20818A /* DZNEmptyDataSet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078896AB760B946690AD229C9FBA2DE0 /* Build configuration list for PBXNativeTarget "LANTestOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB61EF56E68C278A5F9E1748E74CA07 /* Debug */,
+				48199053E67D857ED683C5004856F247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858DE2D00AF81B09E37B60D920EB0C64 /* Build configuration list for PBXNativeTarget "Pods-DirectAnswer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C89C74810E847CE6E729375A060C1CF /* Debug */,
+				627DB57B3B81D56BCE59C85CEC127AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9458AC734207B1393B9808E717012CED /* Build configuration list for PBXNativeTarget "LANTestTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCE2ED51E523E0BECFA89C421D98519 /* Debug */,
+				9ABAB8BD70ED520BD1B0E1BF982037F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D16F1430E3813C6D9A8E7A6E3A4E3F /* Build configuration list for PBXNativeTarget "DZNEmptyDataSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D67096C87E49A4D6384CDAB885BF405 /* Debug */,
+				FDBC60D547E8DA8EBEB2B948346AAD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

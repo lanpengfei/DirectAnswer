@@ -1,0 +1,21 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - LANTest (0.1.0)
+  - LANTestOne (0.1.0)
+  - LANTestTwo (0.2.0)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - LANTest
+  - LANTestOne
+  - LANTestTwo
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  LANTest: b8eda86da078d36e20ce40f48a5737bab159e295
+  LANTestOne: d1427e9161bd868dcf0000380b9a130f0ae9f63d
+  LANTestTwo: f52946f4674a3c95f2624cf5847bc57128507f21
+
+PODFILE CHECKSUM: a829d5e6c7c3d3f59b6c509887e8f5dec8b25fc9
+
+COCOAPODS: 1.4.0
